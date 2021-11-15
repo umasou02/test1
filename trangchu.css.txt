@@ -1,0 +1,80 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.all{
+display: flex;
+justify-content: center;
+width: 1500px;
+margin: 0 auto;
+}
+.menu{
+width: 160px;
+background-color: black;
+}
+.menu li{
+list-style: none;
+border-bottom: 1px solid  #ccc;
+padding: 8px ;
+}
+.menu li a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+display: block;
+}
+.menu li:hover{
+  background: red;
+}
+.noidung{
+padding: 0 60px;
+width: 840px;
+border-bottom: 1pxsolid #ccc;
+}
+.card{
+text-align: center;
+color: red;
+}
+.dau{
+text-align: center;
+background-color: #ccc;
+}
+.noidungdau h3{
+font-weight: 600;
+padding: 20px 0;
+}
+.dau p{
+width: 60%;
+margin: 0 auto;
+padding-bottom: 30px;
+}
+.sau{
+ display: flex;
+ justify-content: space-around;
+ padding: 20px 0;
+}
+.noidungsau{
+ padding-right: 16px;
+}
+.noidungcuoi{
+  padding-left: 16px;
+}
+.noidung-1{
+font-weight: bold;
+padding: 4px  0;
+font-size: 20px;
+}
+.anhdau{
+display: flex;
+}
+.ndanh{
+ width: 100px;
+ height: 100px;
+}
+.noidung-1-decs{
+display: inline-block;
+}
+.footer{
+  color: #ccc;
+}
